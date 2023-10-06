@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Blog</h1>
+    </section>
+
+    <!---------- Blog Page Content ---------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/IMG_0100_ConferenceLocation.bmp" />
+          <h2>
+            Uncovering the Beth Gleeson Building: Where Innovation Meets Fun at
+            La Trobe!
+          </h2>
+
+          <h2>Beth Glee...son?</h2>
+          <p>
+            That's right! Ever wondered where the magic happens at La Trobe
+            University? Look no further than the Beth Gleeson Building! Named
+            after the incredible former Vice-Chancellor, this place is where the
+            cool kids come together for some serious fun and learning. Let's
+            dive into what makes the building a must-see spot on campus and our
+            conference location for the AGM!
+          </p>
+
+          <h2>An Architectural Wonder</h2>
+          <p>
+            The Beth Gleeson Building isn't just a bunch of bricks and
+            glass—it's an architectural wonder! With its sleek design and
+            environmental-friendly vibes, it's a place that'll make you go
+            "Wow!" Plus, it fits right in with the beautiful surroundings,
+            making it a perfect spot for both work and play.
+          </p>
+
+          <h2>With Awesome Spaces Inside</h2>
+          <ul>
+            <li>
+              Supercharged Classrooms: State of the art equipment and
+              facilities, making learning a lot more fun than it already is.
+            </li>
+            <li>
+              Lab-tastic: The labs here are like mini wonderlands of discovery.
+              From test tubes to microscopes, it's a science-lover's dream come
+              true.
+            </li>
+            <li>
+              Hangout Havens: Need a break after your study session? There are
+              lounges and places where you can kick back, relax, and hang out
+              with your friends.
+            </li>
+          </ul>
+
+          <h2>A Real Creativity Zone</h2>
+          <p>
+            It isn't just about hitting the textbooks or screens. It's a place
+            where ideas come to life! Seminars, workshops, and cool events
+            happen here all the time.
+          </p>
+
+          <h2>A Hub for Everyone</h2>
+          <p>
+            Whether you're into programming or sociology, there's a place for
+            you here. It's like a big melting pot of ideas, where different
+            passions collide and create something amazing.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div class="category-content active">
+            <span>Locations</span>
+            <span>21</span>
+          </div>
+          <div class="category-content">
+            <span>Campus</span>
+            <span>28</span>
+          </div>
+          <div class="category-content">
+            <span>Art</span>
+            <span>15</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        The Victorian Branch of InfoSysAnalysis welcomes you to our Annual
+        General Meeting (AGM) at La Trobe University.
+        <br />
+        This website was created top provide you with all the necessary
+        information about the campus, facilities, and local attractions to make
+        your experience enjoyable and memorable.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/latrobe/"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/latrobe">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/latrobeuni/?hl=en"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/c/latrobeuniversity"
+          ><i class="fa fa-youtube"></i
+        ></a>
+      </div>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

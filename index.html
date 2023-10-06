@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attend the AGM!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a width="100px" href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Welcome To The La Trobe's Annual General Meeting!</h1>
+        <p>Explore La Trobe University and Discover Exciting Destinations</p>
+        <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+      </div>
+    </section>
+
+    <!---------- campus ---------->
+
+    <section class="campus">
+      <h1>Check out our attractions!</h1>
+      <div class="row">
+        <div class="campus-col">
+          <img style="height: 800px" src="images/IMG_0104_LocalArt02.bmp" />
+        </div>
+        <div class="campus-col">
+          <img style="height: 800px" src="images/IMG_0101_LocalArt01.bmp" />
+        </div>
+        <div class="campus-col">
+          <img style="height: 800px" src="images/IMG_0113_Gardens03.bmp" />
+        </div>
+      </div>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+      <h1>Our Facilities</h1>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/library.webp" />
+          <h3>Library</h3>
+          <p>
+            The Borchardt library at La Trobe University is a comprehensive
+            resource for students and faculty. It houses an extensive collection
+            of books, journals, and digital resources as well as world class
+            staff to support academic research and learning. The library also
+            provides comfortable study spaces and access to specialized
+            databases.
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="images/sport.jpg" />
+          <h3>Sports Center</h3>
+          <p>
+            The La Trobe Indoor sports center offers state-of-the-art facilities
+            for various sports and fitness activities. It includes a gym,
+            swimming pool, and various indoor sports halls. The center also
+            hosts fitness classes, consultations, and organized sports events
+            throughout the year.
+          </p>
+        </div>
+        <div class="facility-col">
+          <img src="images/lab.webp" />
+          <h3>Labs</h3>
+          <p>
+            La Trobe University boasts state-of-the-art and well-equipped
+            science labs that promotes hands-on learning and experimentation.
+            Equipped with advanced instruments and technologies, they provide
+            students with a conducive environment for continuous scientific
+            exploration and research.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!------ Call To Action ------>
+
+    <section class="cta">
+      <h1>
+        Join Us at La Trobe University <br />for Our Annual General Meeting
+      </h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        The Victorian Branch of InfoSysAnalysis welcomes you to our Annual
+        General Meeting (AGM) at La Trobe University.
+        <br />
+        This website was created top provide you with all the necessary
+        information about the campus, facilities, and local attractions to make
+        your experience enjoyable and memorable.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/latrobe/"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/latrobe"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/latrobeuni/?hl=en"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/c/latrobeuniversity"
+          ><i class="fa fa-youtube"></i
+        ></a>
+      </div>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
